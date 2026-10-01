@@ -1,0 +1,23 @@
+category,item,status,evidence
+Generation,Model snapshot,recorded,ea430eab64b80855029c2941b9fda15f245a771a
+Generation,Checkpoint path,recorded,chemical_system last.ckpt and MatterGen base path
+Generation,Condition syntax,recorded,chemical_system property string
+Generation,Sampling hyperparameters,recorded,1000 steps one corrector and guidance factor 2.0
+Generation,Batch size,recorded,Maximum batch size four
+Generation,Random seeds,missing,Not preserved in early remote logs
+Generation,Exact installed package version,missing,Not preserved in early remote logs
+Generation,Source-code commit,partial,Model snapshot known but runtime source commit not preserved
+Relaxation,MatterSim checkpoint,recorded,mattersim-v1.0.0-1M.pth
+Relaxation,Force thresholds,recorded,0.02 initial and 0.01 eV per angstrom strict
+Relaxation,Optimizer and step limits,recorded,ASE FIRE 300 and 500 step stages
+Matching,StructureMatcher arguments,recorded,ltol stol angle primitive scale and supercell settings
+Matching,Exact pymatgen runtime,partial,Dependency floor known but completed-run version not logged
+DFT,Input files and k-point grids,recorded,Thirty-two candidate inputs and five unary references
+DFT,Pseudopotential checksums,recorded,SHA-256 recorded for Pt Pd and Rh
+DFT,Prospective acquisition rule,missing,Paper-priority identifiers were hard-coded
+DFT,Unified pseudopotential family,missing,Pt differs from Pd and Rh construction families
+DFT,All-species convergence,partial,Archived convergence study covers fcc Pt only
+DFT,Full candidate relaxation,missing,Candidate calculations are fixed-cell single points
+Software,Automated tests,recorded,43 tests passed on 2026-08-29
+Software,Job state persistence,recorded,Remote status JSON written atomically
+Software,Remote-to-local fallback,recorded,Explicit auto mode fallback implemented

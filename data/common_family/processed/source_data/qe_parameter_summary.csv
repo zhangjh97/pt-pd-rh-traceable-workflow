@@ -1,0 +1,12 @@
+parameter,value,input_count
+calculation,scf,32
+calculation,vc-relax,5
+ecutwfc_Ry,110.0,37
+ecutrho_Ry,880.0,37
+occupations,smearing,37
+smearing,mv,37
+degauss_Ry,0.02,37
+conv_thr,1.0d-8,32
+conv_thr,1.0d-9,5
+electron_maxstep,200,37
+mixing_beta,0.3,37

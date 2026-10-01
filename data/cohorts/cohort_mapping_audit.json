@@ -1,0 +1,15 @@
+{
+  "source_hashes": {
+    "data\\remote_runs\\pt-pd-rh-screening-20260720.json": "dde8371903a1ab38dbf7fd5bf2ffd84bf42d4a1f7ebf11e2057f14456069950b",
+    "data\\dft_production\\paper-priority\\paper-manifest.json": "4278103f7cb87a2fc47f594b285c9f89f51ab9af7133904daeeff26172d74a64",
+    "data\\dft_runs\\CMS_updated_20260910\\source_data\\source_data\\model_structure_details.csv": "16d26120ec29e4dc5cda02f485f4e40614069a86c3748bcd9f3c55d7bc941d8a",
+    "Supplementary_Information.docx": "0003bcb9ac89c505e9855db1e6277adac1f068b35af665def1f7912600f5a837"
+  },
+  "screening_pool_count": 64,
+  "scheduled_DFT_count": 32,
+  "completed_DFT_count": 31,
+  "strict_validation_count": 64,
+  "all_32_candidate_ids_formulas_atom_counts_model_energies_match": true,
+  "scope": "Metadata correspondence only; no coordinate-level structure identity test or new DFT calculation.",
+  "provenance": "Separate earlier screening pool and later strict-model cohort; not a single 64-candidate trajectory."
+}

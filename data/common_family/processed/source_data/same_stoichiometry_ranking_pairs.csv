@@ -1,0 +1,3 @@
+system,reduced_formula,candidate_left,candidate_right,model_delta_eV_atom,dft_delta_eV_atom,absolute_delta_error_eV_atom,ranking_concordant
+Pd-Rh,Pd1Rh3,Pd-Rh-06_PdRh3,Pd-Rh-14_Pd2Rh6,-0.005316257476806641,-0.050533925255422205,0.045217667778615564,True
+Pt-Pd,Pd1Pt1,Pt-Pd-01_Pd4Pt4,Pt-Pd-15_Pd4Pt4,0.004715919494628906,0.0504097392913535,0.04569381979672459,True

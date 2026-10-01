@@ -1,0 +1,5 @@
+﻿job,nat,final_log,energy_Ry,accuracy_Ry,kmesh,shift,pressure_kbar,max_abs_stress_kbar,max_force_component_Ry_bohr,max_atom_force_Ry_bohr,total_force_Ry_bohr,total_SCF_correction_Ry_bohr,force_accuracy_warning
+Pt-Pd-01_Pd4Pt4,8,output.part01.log,-2128.68055197,1.1e-09,10x8x8,1 1 1,-1.0,1.22,7.048e-05,9.957169879036914e-05,0.000141,7.4e-05,True
+Pt-Pd-15_Pd4Pt4,8,output.part01.log,-2128.65047411,6.7e-09,8x8x8,1 1 1,0.35,2.65,0.00072639,0.0007406969644193232,0.001552,0.00011,False
+Pd-Rh-14_Pd2Rh6,8,output.part01.log,-1949.40006991,4.7e-09,14x14x4,1 1 1,0.07,5.6,0.00064084,0.0006410066736002052,0.001504,0.000449,True
+Pd-Rh-06_PdRh3,4,output.part01.log,-974.6838154,6.1e-09,14x8x8,1 1 1,-1.25,6.83,0.00099428,0.0009945886852865359,0.001318,0.000144,True

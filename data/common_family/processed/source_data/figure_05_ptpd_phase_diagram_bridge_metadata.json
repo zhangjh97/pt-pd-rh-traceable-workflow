@@ -1,0 +1,20 @@
+{
+  "claim": "The local workflow links a Pt-Pd finite-temperature CALPHAD trial to a static 0 K DFT candidate-set hull on a common composition axis.",
+  "calphad_scope": {
+    "temperature_K": [
+      300,
+      2100
+    ],
+    "temperature_step_K": 25,
+    "composition_axis": "x_PT",
+    "composition_points": 101,
+    "grid_points": 7373,
+    "pressure_Pa": 101325,
+    "phases": [
+      "FCC_A1",
+      "FCC_A1;LIQUID",
+      "LIQUID"
+    ]
+  },
+  "scientific_boundary": "The supplied Pt-Pd TDB contains unresolved optimization symbols. The trial repair assigns these symbols zero, so the phase diagram is suitable for workflow demonstration only, not a certified thermodynamic assessment."
+}

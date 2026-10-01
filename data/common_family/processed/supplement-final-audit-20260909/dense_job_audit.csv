@@ -1,0 +1,5 @@
+﻿job,nat,final_log,energy_Ry,accuracy_Ry,kmesh,shift,pressure_kbar,max_abs_stress_kbar,max_force_component_Ry_bohr,max_atom_force_Ry_bohr,total_force_Ry_bohr,total_SCF_correction_Ry_bohr,force_accuracy_warning
+k_dense3_alloy,20,output.part02.log,-5239.08326196,6.9e-09,8x7x7,0 1 1,-0.37,0.84,0.00058328,0.0005998818472832796,0.001479,0.000555,True
+k_dense3_ref_Pt,1,output.part01.log,-261.18490131,1.9e-13,18x18x18,1 1 1,0.1,0.1,0.0,0.0,0.0,0.0,False
+k_dense3_ref_Pd,1,output.part01.log,-270.98092065,1.2e-12,18x18x18,1 1 1,0.09,0.09,0.0,0.0,0.0,0.0,False
+k_dense3_ref_Rh,1,output.part01.log,-234.57776483,2.8e-11,18x18x18,1 1 1,0.03,0.03,0.0,0.0,0.0,0.0,False

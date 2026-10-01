@@ -1,0 +1,57 @@
+&CONTROL
+  calculation = 'vc-relax'
+  restart_mode = 'from_scratch'
+  prefix = 'Pd-Rh-14_Pd2Rh6_unified_pd04'
+  pseudo_dir = './pseudo'
+  outdir = './scratch'
+  tprnfor = .true.
+  tstress = .true.
+  disk_io = 'low'
+  nstep = 120
+  max_seconds = 36000
+  forc_conv_thr = 1.0d-3
+  etot_conv_thr = 1.0d-5
+/
+&SYSTEM
+  ibrav = 0
+  nat = 8
+  ntyp = 2
+  ecutwfc = 110.0
+  ecutrho = 440.0
+  occupations = 'smearing'
+  smearing = 'mv'
+  degauss = 0.02
+/
+&ELECTRONS
+  conv_thr = 1.0d-8
+  electron_maxstep = 200
+  mixing_beta = 0.3
+/
+&IONS
+  ion_dynamics = 'bfgs'
+/
+&CELL
+  cell_dynamics = 'bfgs'
+  cell_dofree = 'all'
+  press = 0.0
+  press_conv_thr = 0.5
+/
+ATOMIC_SPECIES
+Pd 106.42 Pd_std.upf
+Rh 102.90549 Rh_std.upf
+CELL_PARAMETERS angstrom
+2.749571800232 0.000000000000 0.001853772672
+0.001339542454 2.750198276450 0.000868024596
+0.000000000000 0.000000000000 15.486409187317
+ATOMIC_POSITIONS crystal
+Pd 0.171453747269 0.273594495343 0.702276771094
+Pd 0.171447829052 0.273606775689 0.446628210692
+Rh 0.671395504075 0.773652414615 0.074395292866
+Rh 0.171472129325 0.273568430370 0.951769638104
+Rh 0.671453141178 0.773676182639 0.831225836091
+Rh 0.171298619603 0.273573565308 0.197103204286
+Rh 0.671437143904 0.773503074284 0.574420937272
+Rh 0.671345015663 0.773620124283 0.317729328044
+K_POINTS automatic
+10 10 2 1 1 1
+

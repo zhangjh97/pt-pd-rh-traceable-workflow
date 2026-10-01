@@ -1,0 +1,45 @@
+&CONTROL
+  calculation = 'vc-relax'
+  restart_mode = 'from_scratch'
+  prefix = 'reference_Pt_fcc_PD04'
+  pseudo_dir = './pseudo'
+  outdir = './scratch'
+  tprnfor = .true.
+  tstress = .true.
+  disk_io = 'low'
+  nstep = 50
+  max_seconds = 14400
+  forc_conv_thr = 1.0d-3
+  etot_conv_thr = 1.0d-5
+/
+&SYSTEM
+  ibrav = 2
+  celldm(1) = 7.415285313032
+  nat = 1
+  ntyp = 1
+  ecutwfc = 110.0
+  ecutrho = 440.0
+  occupations = 'smearing'
+  smearing = 'mv'
+  degauss = 0.02
+/
+&ELECTRONS
+  conv_thr = 1.0d-8
+  electron_maxstep = 200
+  mixing_beta = 0.3
+/
+&IONS
+  ion_dynamics = 'bfgs'
+/
+&CELL
+  cell_dynamics = 'bfgs'
+  cell_dofree = 'ibrav'
+  press = 0.0
+  press_conv_thr = 0.5
+/
+ATOMIC_SPECIES
+Pt 195.084 Pt_std.upf
+ATOMIC_POSITIONS crystal
+Pt 0.0 0.0 0.0
+K_POINTS automatic
+12 12 12 1 1 1

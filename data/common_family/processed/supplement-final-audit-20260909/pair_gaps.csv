@@ -1,0 +1,3 @@
+﻿lower_candidate,higher_candidate,old_gap_meV_atom,new_gap_meV_atom,change_meV_atom,ranking_preserved
+Pt-Pd-01_Pd4Pt4,Pt-Pd-15_Pd4Pt4,50.024102927278435,51.15376662013693,1.129663692858493,True
+Pd-Rh-14_Pd2Rh6,Pd-Rh-06_PdRh3,53.75328735503969,55.169571980450776,1.4162846254110875,True

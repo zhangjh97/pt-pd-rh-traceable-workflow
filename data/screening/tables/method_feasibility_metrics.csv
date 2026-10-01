@@ -1,0 +1,7 @@
+metric,numerator,denominator,value_percent,interpretation
+Generation retention,64,65,98.461538,One composition-mismatched ternary output was rejected
+Strict MLIP validation,64,64,100.000000,All retained structures passed the strict recheck
+DFT execution completion,31,32,96.875000,One optional Pt-Pd job remained unfinished
+Software test pass,43,43,100.000000,Local pytest suite executed on 2026-08-29
+DFT scheduling fraction,32,64,50.000000,Half of the strict pool was scheduled for DFT
+Near-hull case-study outcome,14,31,45.161290,Finite candidate-set outcome rather than a workflow pass rate

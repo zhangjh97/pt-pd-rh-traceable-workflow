@@ -1,0 +1,42 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'Pt-Pd-Rh-05_Pd2Pt4Rh'
+  pseudo_dir = '/home/tenant3/nexus-mat/dft/pseudo/SSSP_1.3.0_PBE_precision'
+  outdir = '/home/tenant3/nexus-mat/dft/runs/dft-paper-worker-10/jobs/Pt-Pd-Rh-05_Pd2Pt4Rh/tmp'
+  tprnfor = .true.
+  tstress = .true.
+  disk_io = 'low'
+/
+&SYSTEM
+  ibrav = 0
+  nat = 7
+  ntyp = 3
+  ecutwfc = 110.0
+  ecutrho = 880.0
+  occupations = 'smearing'
+  smearing = 'mv'
+  degauss = 0.02
+/
+&ELECTRONS
+  conv_thr = 1.0d-8
+  electron_maxstep = 200
+  mixing_beta = 0.3
+/
+ATOMIC_SPECIES
+Pd 106.42 Pd_ONCV_PBE-1.0.oncvpsp.upf
+Pt 195.084 Pt.pbe-spfn-rrkjus_psl.1.0.0.UPF
+Rh 102.90549 Rh_ONCV_PBE-1.0.oncvpsp.upf
+CELL_PARAMETERS angstrom
+3.922130823135 0.000000000000 0.000292517623
+-1.963968204084 4.375942481650 -0.634790897369
+0.000000000000 0.000000000000 6.236539840698
+ATOMIC_POSITIONS crystal
+Pd 0.736860617425 0.881114977219 0.498248349582
+Pd 0.166561284004 0.740369608952 0.782989435930
+Pt 0.022361944045 0.452071422153 0.352730078916
+Pt 0.450587760096 0.308448371367 0.641633919619
+Pt 0.309744293949 0.026764764121 0.208214848245
+Pt 0.594438719977 0.596224097107 0.066203169377
+Rh 0.881747815235 0.170900180714 0.925998215717
+K_POINTS automatic
+8 6 5 1 1 0

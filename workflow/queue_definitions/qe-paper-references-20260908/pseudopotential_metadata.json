@@ -1,0 +1,30 @@
+{
+  "library": "PseudoDojo ONCVPSP-PBE-SR",
+  "version": "NC SR (ONCVPSP v0.4.1)",
+  "table": "standard",
+  "exchange_correlation": "PBE",
+  "relativity": "scalar",
+  "generator": "ONCVPSP",
+  "repository": "https://github.com/PseudoDojo/ONCVPSP-PBE-SR",
+  "commit": "823b18f7701b6303e0e69114eaa645173f706600",
+  "files": [
+    {
+      "element": "Pt",
+      "filename": "Pt_std.upf",
+      "valence_electrons": 18.0,
+      "sha256": "d720e74ecee92d6f9d701eb0505324bef77d0b67d115f32eadb9a0639162ce46"
+    },
+    {
+      "element": "Pd",
+      "filename": "Pd_std.upf",
+      "valence_electrons": 18.0,
+      "sha256": "3b2cac5272fcab98ade99eff6cc6153e4c450ca1632ac96202a7e182bf592d67"
+    },
+    {
+      "element": "Rh",
+      "filename": "Rh_std.upf",
+      "valence_electrons": 17.0,
+      "sha256": "2c5ac1aeca2d407236885fd9a777221beeb1869cc30b1efb327105cb6b640696"
+    }
+  ]
+}

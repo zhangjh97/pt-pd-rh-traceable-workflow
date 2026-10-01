@@ -1,0 +1,62 @@
+[
+  {
+    "name": "k_dense3_alloy",
+    "source_run": "kdense3_check_20260909",
+    "source_job": "k_dense3_alloy",
+    "ranks": 12,
+    "pools": 2,
+    "prefix": "k_dense3_alloy",
+    "source_log": "output.part02.log",
+    "source_log_sha256": "5fa88cd5702f9d4159617926d9257ee01aee1ea075c7c5eb99da6d4ad27f73f9",
+    "pseudo_sha256": {
+      "Pd_std.upf": "3b2cac5272fcab98ade99eff6cc6153e4c450ca1632ac96202a7e182bf592d67",
+      "Pt_std.upf": "d720e74ecee92d6f9d701eb0505324bef77d0b67d115f32eadb9a0639162ce46",
+      "Rh_std.upf": "2c5ac1aeca2d407236885fd9a777221beeb1869cc30b1efb327105cb6b640696"
+    }
+  },
+  {
+    "name": "Pd-Rh-06_PdRh3",
+    "source_run": "pair_ranking_check_20260909",
+    "source_job": "Pd-Rh-06_PdRh3",
+    "ranks": 24,
+    "pools": 4,
+    "prefix": "Pd-Rh-06_PdRh3_pair_dense",
+    "source_log": "output.part01.log",
+    "source_log_sha256": "88e011258766a1ef928e785aba20df6d93710162896a3de41a72e8f541f9c6aa",
+    "pseudo_sha256": {
+      "Pd_std.upf": "3b2cac5272fcab98ade99eff6cc6153e4c450ca1632ac96202a7e182bf592d67",
+      "Pt_std.upf": "d720e74ecee92d6f9d701eb0505324bef77d0b67d115f32eadb9a0639162ce46",
+      "Rh_std.upf": "2c5ac1aeca2d407236885fd9a777221beeb1869cc30b1efb327105cb6b640696"
+    }
+  },
+  {
+    "name": "Pt-Pd-01_Pd4Pt4",
+    "source_run": "pair_ranking_check_20260909",
+    "source_job": "Pt-Pd-01_Pd4Pt4",
+    "ranks": 24,
+    "pools": 4,
+    "prefix": "Pt-Pd-01_Pd4Pt4_pair_dense",
+    "source_log": "output.part01.log",
+    "source_log_sha256": "e7959fff5ae4950859cab4cb6bd4643a8ab396afee757f12738829d6ab4db4d5",
+    "pseudo_sha256": {
+      "Pd_std.upf": "3b2cac5272fcab98ade99eff6cc6153e4c450ca1632ac96202a7e182bf592d67",
+      "Pt_std.upf": "d720e74ecee92d6f9d701eb0505324bef77d0b67d115f32eadb9a0639162ce46",
+      "Rh_std.upf": "2c5ac1aeca2d407236885fd9a777221beeb1869cc30b1efb327105cb6b640696"
+    }
+  },
+  {
+    "name": "Pd-Rh-14_Pd2Rh6",
+    "source_run": "pair_ranking_check_20260909",
+    "source_job": "Pd-Rh-14_Pd2Rh6",
+    "ranks": 24,
+    "pools": 4,
+    "prefix": "Pd-Rh-14_Pd2Rh6_pair_dense",
+    "source_log": "output.part01.log",
+    "source_log_sha256": "8ef3e5b93aa45e034a165a7787a00c01a63ab97bf47b7954e338b8557fbaa815",
+    "pseudo_sha256": {
+      "Pd_std.upf": "3b2cac5272fcab98ade99eff6cc6153e4c450ca1632ac96202a7e182bf592d67",
+      "Pt_std.upf": "d720e74ecee92d6f9d701eb0505324bef77d0b67d115f32eadb9a0639162ce46",
+      "Rh_std.upf": "2c5ac1aeca2d407236885fd9a777221beeb1869cc30b1efb327105cb6b640696"
+    }
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "objective": "Pt-Pd-Rh ternary paper with three binary-edge baselines",
+  "selected": 32,
+  "systems": {
+    "Pt-Pd": 6,
+    "Pt-Rh": 6,
+    "Pd-Rh": 8,
+    "Pt-Pd-Rh": 12
+  },
+  "worker_loads": [
+    3440,
+    4760,
+    4695,
+    3368,
+    3368,
+    4750,
+    4768,
+    4768,
+    4741,
+    3360,
+    4730,
+    4720
+  ]
+}

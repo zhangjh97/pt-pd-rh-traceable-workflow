@@ -1,0 +1,5 @@
+system,structures,unique_compositions,space_groups,structure_clusters_within_stoichiometry,atoms_min,atoms_max,maximum_force_max_eV_A,minimum_distance_min_A,volume_curvature_positive_fraction
+Pt-Pd,16,11,11,16,3,20,0.0099213840439915,2.7146996433167883,1.0
+Pt-Rh,16,14,14,16,4,20,0.0097577488049864,2.572250553485846,1.0
+Pd-Rh,16,10,12,16,4,18,0.0099574476480484,2.2213386944060405,1.0
+Pt-Pd-Rh,16,16,6,16,5,20,0.0099754855036735,2.578272144017425,1.0

@@ -1,0 +1,5 @@
+system,dft_completed,near_hull_10mev,candidate_hull_zero,near_hull_hit_rate,median_hull_distance_eV_atom
+Pt-Pd,5,2,1,0.4,0.0285934355460995
+Pt-Rh,6,5,4,0.8333333333333334,0.0
+Pd-Rh,8,0,0,0.0,0.07101553431448335
+Pt-Pd-Rh,12,7,3,0.5833333333333334,0.00972004641516825

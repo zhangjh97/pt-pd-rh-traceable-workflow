@@ -1,0 +1,170 @@
+
+     Program PWSCF v.7.5 starts on 24Jul2026 at 23:37:59 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Serial multi-threaded version, running on   16 processor cores
+     30549 MiB available memory on the printing compute node when the environment starts
+
+     Reading input from /home/tenant3/nexus-mat/dft/runs/dft-static-v3-worker-11/jobs/Pt-Pd-08_Pd5Pt15/input.in
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  4
+     file Pt.pbe-spfn-rrkjus_psl.1.0.0.UPF: wavefunction(s)  5P renormalized
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum       12195    6097   1653               931535   329345   46367
+
+     Using Slab Decomposition
+
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      14.0521  a.u.
+     unit-cell volume          =    2113.1717 (a.u.)^3
+     number of atoms/cell      =           20
+     number of atomic types    =            2
+     number of electrons       =       570.00
+     number of Kohn-Sham states=          342
+     kinetic-energy cutoff     =     110.0000  Ry
+     charge density cutoff     =     880.0000  Ry
+     scf convergence threshold =      1.0E-08
+     mixing beta               =       0.3000
+     number of iterations used =            8  plain     mixing
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+
+     celldm(1)=  14.052070  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   0.999990   0.000000  -0.004523 )  
+               a(2) = (  -0.277992   0.824992  -0.310838 )  
+               a(3) = (   0.000000   0.000000   0.923142 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000010  0.336967 -0.000000 )  
+               b(2) = ( -0.000000  1.212133  0.000000 )  
+               b(3) = (  0.004900  0.409798  1.083257 )  
+
+
+     PseudoPot. # 1 for Pd read from file:
+     /home/tenant3/nexus-mat/dft/pseudo/SSSP_1.3.0_PBE_precision/Pd_ONCV_PBE-1.0.oncvpsp.upf
+     MD5 check sum: eb77f42b51d86fb18e25f68156a31cf1
+     Pseudo is Norm-conserving, Zval = 18.0
+     Generated using ONCVPSP code by D. R. Hamann
+     Using radial grid of 1410 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+
+     PseudoPot. # 2 for Pt read from file:
+     /home/tenant3/nexus-mat/dft/pseudo/SSSP_1.3.0_PBE_precision/Pt.pbe-spfn-rrkjus_psl.1.0.0.UPF
+     MD5 check sum: ed006ba81d2b6b3b17616bb61ae12f04
+     Pseudo is Ultrasoft + core correction, Zval = 32.0
+     Generated using "atomic" code by A. Dal Corso  v.5.1
+     Using radial grid of 1277 points,  8 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+                l(7) =   3
+                l(8) =   3
+     Q(r) pseudized with 0 coefficients 
+
+
+     atomic species   valence    mass     pseudopotential
+     Pd               18.00   106.42000     Pd( 1.00)
+     Pt               32.00   195.08400     Pt( 1.00)
+
+     No symmetry found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1        Pd     tau(   1) = (   0.0845994   0.8194927   0.1055934  )
+         2        Pd     tau(   2) = (   0.5071762   0.1591105   0.7228382  )
+         3        Pd     tau(   3) = (  -0.0592667   0.6539773  -0.2006682  )
+         4        Pd     tau(   4) = (   0.6513512   0.3243502   0.1057497  )
+         5        Pd     tau(   5) = (   0.7961764   0.4892180   0.4117876  )
+         6        Pt     tau(   6) = (   0.2932464   0.2004420   0.1080498  )
+         7        Pt     tau(   7) = (   0.5127112   0.7365777   0.4117157  )
+         8        Pt     tau(   8) = (   0.2986909   0.7780429  -0.2029001  )
+         9        Pt     tau(   9) = (   0.4378000   0.3656076   0.4139331  )
+        10        Pt     tau(  10) = (   0.0792532   0.2416843   0.4164653  )
+        11        Pt     tau(  11) = (   0.1491066   0.0351581   0.7249346  )
+        12        Pt     tau(  12) = (   0.2239478   0.4064715   0.7224200  )
+        13        Pt     tau(  13) = (   0.9350404   0.0765598   0.1057177  )
+        14        Pt     tau(  14) = (   0.7207708   0.1183252   0.4141979  )
+        15        Pt     tau(  15) = (   0.3679296   0.5720509   0.1052661  )
+        16        Pt     tau(  16) = (   0.5824716   0.5301618  -0.2029961  )
+        17        Pt     tau(  17) = (   0.1543416   0.6130901   0.4139016  )
+        18        Pt     tau(  18) = (   0.0096205   0.4480559   0.1078445  )
+        19        Pt     tau(  19) = (   0.7264930   0.6953976   0.1030891  )
+        20        Pt     tau(  20) = (   0.8654063   0.2827220   0.7205485  )
+
+     number of k points=    40  Marzari-Vanderbilt smearing, width (Ry)=  0.0200
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.1256138   0.0933455   0.1354071), wk =   0.0500000
+        k(    2) = (   0.1268388   0.1957949   0.4062212), wk =   0.0500000
+        k(    3) = (   0.1231638  -0.1115533  -0.4062212), wk =   0.0500000
+        k(    4) = (   0.1243888  -0.0091039  -0.1354071), wk =   0.0500000
+        k(    5) = (   0.1256138   0.3357722   0.1354071), wk =   0.0500000
+        k(    6) = (   0.1268388   0.4382216   0.4062212), wk =   0.0500000
+        k(    7) = (   0.1231638   0.1308734  -0.4062212), wk =   0.0500000
+        k(    8) = (   0.1243888   0.2333228  -0.1354071), wk =   0.0500000
+        k(    9) = (   0.1256138   0.5781988   0.1354071), wk =   0.0500000
+        k(   10) = (   0.1268388   0.6806482   0.4062212), wk =   0.0500000
+        k(   11) = (   0.1231638   0.3733001  -0.4062212), wk =   0.0500000
+        k(   12) = (   0.1243888   0.4757495  -0.1354071), wk =   0.0500000
+        k(   13) = (   0.1256138  -0.3915078   0.1354071), wk =   0.0500000
+        k(   14) = (   0.1268388  -0.2890584   0.4062212), wk =   0.0500000
+        k(   15) = (   0.1231638  -0.5964066  -0.4062212), wk =   0.0500000
+        k(   16) = (   0.1243888  -0.4939572  -0.1354071), wk =   0.0500000
+        k(   17) = (   0.1256138  -0.1490811   0.1354071), wk =   0.0500000
+        k(   18) = (   0.1268388  -0.0466317   0.4062212), wk =   0.0500000
+        k(   19) = (   0.1231638  -0.3539799  -0.4062212), wk =   0.0500000
+        k(   20) = (   0.1243888  -0.2515305  -0.1354071), wk =   0.0500000
+        k(   21) = (   0.3756163   0.1775872   0.1354071), wk =   0.0500000
+        k(   22) = (   0.3768413   0.2800366   0.4062212), wk =   0.0500000
+        k(   23) = (   0.3731664  -0.0273116  -0.4062212), wk =   0.0500000
+        k(   24) = (   0.3743913   0.0751378  -0.1354071), wk =   0.0500000
+        k(   25) = (   0.3756163   0.4200138   0.1354071), wk =   0.0500000
+        k(   26) = (   0.3768413   0.5224632   0.4062212), wk =   0.0500000
+        k(   27) = (   0.3731664   0.2151151  -0.4062212), wk =   0.0500000
+        k(   28) = (   0.3743913   0.3175645  -0.1354071), wk =   0.0500000
+        k(   29) = (   0.3756163   0.6624405   0.1354071), wk =   0.0500000
+        k(   30) = (   0.3768413   0.7648899   0.4062212), wk =   0.0500000
+        k(   31) = (   0.3731664   0.4575417  -0.4062212), wk =   0.0500000
+        k(   32) = (   0.3743913   0.5599911  -0.1354071), wk =   0.0500000
+        k(   33) = (   0.3756163  -0.3072661   0.1354071), wk =   0.0500000
+        k(   34) = (   0.3768413  -0.2048167   0.4062212), wk =   0.0500000
+        k(   35) = (   0.3731664  -0.5121649  -0.4062212), wk =   0.0500000
+        k(   36) = (   0.3743913  -0.4097155  -0.1354071), wk =   0.0500000
+        k(   37) = (   0.3756163  -0.0648395   0.1354071), wk =   0.0500000
+        k(   38) = (   0.3768413   0.0376099   0.4062212), wk =   0.0500000
+        k(   39) = (   0.3731664  -0.2697382  -0.4062212), wk =   0.0500000
+        k(   40) = (   0.3743913  -0.1672889  -0.1354071), wk =   0.0500000
+
+     Dense  grid:   931535 G-vectors     FFT dimensions: ( 135, 125, 125)
+
+     Smooth grid:   329345 G-vectors     FFT dimensions: (  96,  90,  90)

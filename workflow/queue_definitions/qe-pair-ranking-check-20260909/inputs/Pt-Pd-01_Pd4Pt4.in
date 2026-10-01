@@ -1,0 +1,56 @@
+&CONTROL
+   calculation      = 'scf'
+   restart_mode     = 'from_scratch'
+   tstress          = .true.
+   tprnfor          = .true.
+   outdir           = './scratch'
+   prefix           = 'Pt-Pd-01_Pd4Pt4_pair_dense'
+   max_seconds      = 21600
+   disk_io          = 'low'
+   pseudo_dir       = './pseudo'
+/
+&SYSTEM
+   ecutwfc          = 110.0
+   ecutrho          = 440.0
+   occupations      = 'smearing'
+   degauss          = 0.02
+   smearing         = 'mv'
+   ntyp             = 2
+   nat              = 8
+   ibrav            = 0
+/
+&ELECTRONS
+   electron_maxstep = 200
+   conv_thr         = 1e-08
+   mixing_beta      = 0.3
+/
+&IONS
+/
+&CELL
+/
+&FCP
+/
+&RISM
+/
+ATOMIC_SPECIES
+Pd 106.42 Pd_std.upf
+Pt 195.084 Pt_std.upf
+
+K_POINTS automatic
+10 8 8  1 1 1
+
+CELL_PARAMETERS angstrom
+3.94811745400000 0.00395681400000 -0.00313672700000
+-0.00406138100000 5.58123796900000 0.00372671300000
+0.00612273700000 0.00640543000000 5.58222484600000
+
+ATOMIC_POSITIONS crystal
+Pd 0.1290845186 0.1297971929 0.4809579564  
+Pd 0.6291142853 0.8797767508 0.7309220308  
+Pd 0.1291211641 0.6298173776 0.9809750836  
+Pd 0.6290987012 0.3798764891 0.2310147227  
+Pt 0.1291097201 0.1298292571 0.9809496669  
+Pt 0.6291151449 0.8798847414 0.2309048682  
+Pt 0.6290951696 0.3797818885 0.7310037037  
+Pt 0.1291080584 0.6298127687 0.4809706863  
+

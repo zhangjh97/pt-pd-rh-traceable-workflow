@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       PtPdPtPdRh
+_chemical_formula_sum              "Pt2 Pd2 Rh1"
+_cell_length_a       3.925758868369
+_cell_length_b       4.831129661007631
+_cell_length_c       4.810387134552002
+_cell_angle_alpha    80.63133309524393
+_cell_angle_beta     65.9066320956917
+_cell_angle_gamma    66.01692598127029
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pt  Pt1       1.0  0.34859847361425095  0.018812179448132377  0.19172045436950408  1.0000
+  Pd  Pd1       1.0  0.5443670497325922  0.22512515148852627  0.5939208284655173  1.0000
+  Pt  Pt2       1.0  0.9440179051119977  0.6268828538454329  0.392845810052577  1.0000
+  Pd  Pd2       1.0  0.748259530422691  0.42061497282761867  0.9906430643434322  1.0000
+  Rh  Rh1       1.0  0.14629036929841302  0.8228564693930401  0.7922763136948355  1.0000

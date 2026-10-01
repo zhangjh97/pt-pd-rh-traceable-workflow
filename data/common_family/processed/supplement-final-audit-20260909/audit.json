@@ -1,0 +1,190 @@
+{
+  "dense_jobs": [
+    {
+      "job": "k_dense3_alloy",
+      "nat": 20,
+      "final_log": "output.part02.log",
+      "energy_Ry": -5239.08326196,
+      "accuracy_Ry": 6.9e-09,
+      "kmesh": "8x7x7",
+      "shift": "0 1 1",
+      "pressure_kbar": -0.37,
+      "max_abs_stress_kbar": 0.84,
+      "max_force_component_Ry_bohr": 0.00058328,
+      "max_atom_force_Ry_bohr": 0.0005998818472832796,
+      "total_force_Ry_bohr": 0.001479,
+      "total_SCF_correction_Ry_bohr": 0.000555,
+      "force_accuracy_warning": true
+    },
+    {
+      "job": "k_dense3_ref_Pt",
+      "nat": 1,
+      "final_log": "output.part01.log",
+      "energy_Ry": -261.18490131,
+      "accuracy_Ry": 1.9e-13,
+      "kmesh": "18x18x18",
+      "shift": "1 1 1",
+      "pressure_kbar": 0.1,
+      "max_abs_stress_kbar": 0.1,
+      "max_force_component_Ry_bohr": 0.0,
+      "max_atom_force_Ry_bohr": 0.0,
+      "total_force_Ry_bohr": 0.0,
+      "total_SCF_correction_Ry_bohr": 0.0,
+      "force_accuracy_warning": false
+    },
+    {
+      "job": "k_dense3_ref_Pd",
+      "nat": 1,
+      "final_log": "output.part01.log",
+      "energy_Ry": -270.98092065,
+      "accuracy_Ry": 1.2e-12,
+      "kmesh": "18x18x18",
+      "shift": "1 1 1",
+      "pressure_kbar": 0.09,
+      "max_abs_stress_kbar": 0.09,
+      "max_force_component_Ry_bohr": 0.0,
+      "max_atom_force_Ry_bohr": 0.0,
+      "total_force_Ry_bohr": 0.0,
+      "total_SCF_correction_Ry_bohr": 0.0,
+      "force_accuracy_warning": false
+    },
+    {
+      "job": "k_dense3_ref_Rh",
+      "nat": 1,
+      "final_log": "output.part01.log",
+      "energy_Ry": -234.57776483,
+      "accuracy_Ry": 2.8e-11,
+      "kmesh": "18x18x18",
+      "shift": "1 1 1",
+      "pressure_kbar": 0.03,
+      "max_abs_stress_kbar": 0.03,
+      "max_force_component_Ry_bohr": 0.0,
+      "max_atom_force_Ry_bohr": 0.0,
+      "total_force_Ry_bohr": 0.0,
+      "total_SCF_correction_Ry_bohr": 0.0,
+      "force_accuracy_warning": false
+    }
+  ],
+  "dense_comparison": [
+    {
+      "group": "c110",
+      "alloy_mesh": "5x4x4",
+      "ref_mesh": "12x12x12",
+      "formation_meV_atom": -17.402191717658567,
+      "delta_to_dense3_meV_atom": 1.2194714718694932
+    },
+    {
+      "group": "k_coarse",
+      "alloy_mesh": "4x3x3",
+      "ref_mesh": "10x10x10",
+      "formation_meV_atom": -14.771020739040127,
+      "delta_to_dense3_meV_atom": 3.8506424504879337
+    },
+    {
+      "group": "k_dense1",
+      "alloy_mesh": "6x5x5",
+      "ref_mesh": "14x14x14",
+      "formation_meV_atom": -20.100581623806658,
+      "delta_to_dense3_meV_atom": -1.4789184342785973
+    },
+    {
+      "group": "k_dense2",
+      "alloy_mesh": "7x6x6",
+      "ref_mesh": "16x16x16",
+      "formation_meV_atom": -18.913022304873177,
+      "delta_to_dense3_meV_atom": -0.2913591153451165
+    },
+    {
+      "group": "k_dense3",
+      "alloy_mesh": "8x7x7",
+      "ref_mesh": "18x18x18",
+      "formation_meV_atom": -18.62166318952806,
+      "delta_to_dense3_meV_atom": 0.0
+    }
+  ],
+  "pair_results_present": true,
+  "pair_jobs": [
+    {
+      "job": "Pt-Pd-01_Pd4Pt4",
+      "nat": 8,
+      "final_log": "output.part01.log",
+      "energy_Ry": -2128.68055197,
+      "accuracy_Ry": 1.1e-09,
+      "kmesh": "10x8x8",
+      "shift": "1 1 1",
+      "pressure_kbar": -1.0,
+      "max_abs_stress_kbar": 1.22,
+      "max_force_component_Ry_bohr": 7.048e-05,
+      "max_atom_force_Ry_bohr": 9.957169879036914e-05,
+      "total_force_Ry_bohr": 0.000141,
+      "total_SCF_correction_Ry_bohr": 7.4e-05,
+      "force_accuracy_warning": true
+    },
+    {
+      "job": "Pt-Pd-15_Pd4Pt4",
+      "nat": 8,
+      "final_log": "output.part01.log",
+      "energy_Ry": -2128.65047411,
+      "accuracy_Ry": 6.7e-09,
+      "kmesh": "8x8x8",
+      "shift": "1 1 1",
+      "pressure_kbar": 0.35,
+      "max_abs_stress_kbar": 2.65,
+      "max_force_component_Ry_bohr": 0.00072639,
+      "max_atom_force_Ry_bohr": 0.0007406969644193232,
+      "total_force_Ry_bohr": 0.001552,
+      "total_SCF_correction_Ry_bohr": 0.00011,
+      "force_accuracy_warning": false
+    },
+    {
+      "job": "Pd-Rh-14_Pd2Rh6",
+      "nat": 8,
+      "final_log": "output.part01.log",
+      "energy_Ry": -1949.40006991,
+      "accuracy_Ry": 4.7e-09,
+      "kmesh": "14x14x4",
+      "shift": "1 1 1",
+      "pressure_kbar": 0.07,
+      "max_abs_stress_kbar": 5.6,
+      "max_force_component_Ry_bohr": 0.00064084,
+      "max_atom_force_Ry_bohr": 0.0006410066736002052,
+      "total_force_Ry_bohr": 0.001504,
+      "total_SCF_correction_Ry_bohr": 0.000449,
+      "force_accuracy_warning": true
+    },
+    {
+      "job": "Pd-Rh-06_PdRh3",
+      "nat": 4,
+      "final_log": "output.part01.log",
+      "energy_Ry": -974.6838154,
+      "accuracy_Ry": 6.1e-09,
+      "kmesh": "14x8x8",
+      "shift": "1 1 1",
+      "pressure_kbar": -1.25,
+      "max_abs_stress_kbar": 6.83,
+      "max_force_component_Ry_bohr": 0.00099428,
+      "max_atom_force_Ry_bohr": 0.0009945886852865359,
+      "total_force_Ry_bohr": 0.001318,
+      "total_SCF_correction_Ry_bohr": 0.000144,
+      "force_accuracy_warning": true
+    }
+  ],
+  "pair_gaps": [
+    {
+      "lower_candidate": "Pt-Pd-01_Pd4Pt4",
+      "higher_candidate": "Pt-Pd-15_Pd4Pt4",
+      "old_gap_meV_atom": 50.024102927278435,
+      "new_gap_meV_atom": 51.15376662013693,
+      "change_meV_atom": 1.129663692858493,
+      "ranking_preserved": true
+    },
+    {
+      "lower_candidate": "Pd-Rh-14_Pd2Rh6",
+      "higher_candidate": "Pd-Rh-06_PdRh3",
+      "old_gap_meV_atom": 53.75328735503969,
+      "new_gap_meV_atom": 55.169571980450776,
+      "change_meV_atom": 1.4162846254110875,
+      "ranking_preserved": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "job": "Pt-Pd-01_Pd4Pt4",
+    "source_log": "data\\dft_runs\\unified_validation_20260908_133506\\Pt-Pd-01_Pd4Pt4\\output.part01.log",
+    "source_log_sha256": "740e71813bf27a85f17e5949cb3f99793116c08a12061b1dc694e7c63e21c54f",
+    "input_sha256": "bf2f70704155a60b7219effb8c6d21512c2fe21ca2e2e01f89be2375a106e793",
+    "nat": 8,
+    "mesh": [
+      10,
+      8,
+      8
+    ],
+    "shift": [
+      1,
+      1,
+      1
+    ],
+    "target_spacing_inverse_A": 0.18,
+    "achieved_spacing_inverse_A": [
+      0.159143712571666,
+      0.140721307147799,
+      0.14069632169943327
+    ]
+  },
+  {
+    "job": "Pt-Pd-15_Pd4Pt4",
+    "source_log": "data\\dft_runs\\unified_validation_20260908_133506\\Pt-Pd-15_Pd4Pt4\\output.part01.log",
+    "source_log_sha256": "f48a18193dc1af0e5af66a5456bb9f3caff5474718aa98d8c138893368e0a6f5",
+    "input_sha256": "12d0e5ac9b61feb1f2c229e7d71e9cd514d420005593a779e372df35466ab9ef",
+    "nat": 8,
+    "mesh": [
+      8,
+      8,
+      8
+    ],
+    "shift": [
+      1,
+      1,
+      1
+    ],
+    "target_spacing_inverse_A": 0.18,
+    "achieved_spacing_inverse_A": [
+      0.1680545084099386,
+      0.16410312026177418,
+      0.1641850056548922
+    ]
+  },
+  {
+    "job": "Pd-Rh-14_Pd2Rh6",
+    "source_log": "data\\dft_runs\\unified_validation_20260908_133506\\Pd-Rh-14_Pd2Rh6\\output.part01.log",
+    "source_log_sha256": "d65246b5afa93d6371303b8676d91cca5310d94057c21177f1425d263911742c",
+    "input_sha256": "47e6030a9333dfa078a1263d1505da10def983effab4f75a03e68650665e6a29",
+    "nat": 8,
+    "mesh": [
+      14,
+      14,
+      4
+    ],
+    "shift": [
+      1,
+      1,
+      1
+    ],
+    "target_spacing_inverse_A": 0.18,
+    "achieved_spacing_inverse_A": [
+      0.1644510444091943,
+      0.16444634315035972,
+      0.1018369479554714
+    ]
+  },
+  {
+    "job": "Pd-Rh-06_PdRh3",
+    "source_log": "data\\dft_runs\\unified_validation_20260908_133506\\Pd-Rh-06_PdRh3\\output.part01.log",
+    "source_log_sha256": "1e91cac85255583166e113e34335ee5577ac2004fb197f61adf37d5c4d7d6ccd",
+    "input_sha256": "b9cb74dcc5173889cdd1808f460266c24e9467fa3812984f9cb9ce79d9fc4912",
+    "nat": 4,
+    "mesh": [
+      14,
+      8,
+      8
+    ],
+    "shift": [
+      1,
+      1,
+      1
+    ],
+    "target_spacing_inverse_A": 0.18,
+    "achieved_spacing_inverse_A": [
+      0.16342677084333476,
+      0.17730595409281916,
+      0.1655629418608687
+    ]
+  }
+]
