@@ -1,19 +1,19 @@
-# Availability statements for the manuscript
+# Data and code availability wording
 
-Use the version that matches the actual repository state. Replace bracketed placeholders only after a URL or DOI exists.
+Use the statement below only after the repository can be opened without login.
+This proposed wording does not imply that the locked manuscript has been updated.
 
-## Review-stage version (data not yet public)
+The curated data and code supporting the reported analyses are available at
+https://github.com/zhangjh97/pt-pd-rh-traceable-workflow. The repository contains
+candidate cohort tables and structures, processed source data, Quantum ESPRESSO
+inputs and compact calculation outputs, calculation queue definitions, and
+analysis and verification scripts. Large restart wavefunctions and temporary
+scratch files are excluded. Third-party software and model weights are obtained
+from the original sources identified in the repository. The documentation
+describes the archived records, usage instructions and known provenance limits.
+Author-written code is distributed under the MIT License and author-generated
+data under CC BY 4.0. Bundled PseudoDojo pseudopotentials retain their original
+CC BY 4.0 license and attribution.
 
-**Data availability.** The source data supporting the figures, tables and numerical conclusions of this study, including the machine-readable candidate cohorts, structures, Quantum ESPRESSO inputs and compact calculation outputs, have been provided with the submission for editorial and peer-review access. Large restart wavefunctions and temporary scratch files are excluded because they are not required to inspect the reported results. The curated dataset will be deposited in a public repository upon acceptance. Ongoing Pt-W, zirconia-dispersion and quaternary-alloy studies are outside the scope of this article and are not part of the supporting dataset.
-
-**Code availability.** The scripts used for candidate selection, calculation queueing, audit, numerical verification and figure-source processing have been provided with the submission and are available at [PRIVATE REVIEW LINK OR PUBLIC GITHUB URL]. Third-party software and model weights are available from their cited original sources and are not redistributed.
-
-## Public-release version
-
-**Data availability.** The source data supporting the figures, tables and numerical conclusions of this study are available in [REPOSITORY NAME] at [DOI OR PERMANENT URL]. The deposit contains the machine-readable candidate cohorts, structures, Quantum ESPRESSO inputs, compact calculation outputs and processed source tables. Large restart wavefunctions and temporary scratch files are excluded because they are not required to inspect the reported results. Ongoing studies outside the scope of this article are not included.
-
-**Code availability.** The scripts used for candidate selection, calculation queueing, audit, numerical verification and figure-source processing are available at [GITHUB URL] and archived at [DOI]. Third-party software and model weights are available from their cited original sources and are not redistributed.
-
-## Important consistency rule
-
-Do not state that data are public until the link works without the authors' login. Do not claim a DOI until the DOI has been issued. The manuscript, submission form, cover letter, supplementary information and repository README must describe the same access arrangement.
+Include the Git commit used when citing the repository. No repository DOI or
+published manuscript DOI is claimed in this release.

@@ -14,7 +14,7 @@ The release is deliberately limited to the Pt-Pd-Rh study reported in the manusc
 - processed source tables used for the reported numerical results;
 - Quantum ESPRESSO inputs, compact outputs, queue definitions, checksums, and analysis scripts.
 
-It does **not** contain ongoing or future Pt-W, zirconia-dispersion, Pt-Pd-Rh-Ru, catalytic-reaction, mechanical-property, or high-temperature studies. It also excludes server credentials, network information, large restart wavefunctions, charge-density scratch data, and unrelated project files.
+The scope is the present manuscript. Large restart wavefunctions, charge-density scratch data and unrelated project files are excluded.
 
 ## Directory map
 
@@ -25,7 +25,7 @@ It does **not** contain ongoing or future Pt-W, zirconia-dispersion, Pt-Pd-Rh-Ru
 - `data/common_family/raw_archives/`: seven compact calculation archives referenced in Supplementary Table S1. Large QE scratch directories are absent.
 - `workflow/queue_definitions/`: queue scripts and original calculation inputs for the common-family validation runs.
 - `code/`: selection, audit, verification, and figure-source scripts.
-- `docs/`: data dictionary, publication instructions, and manuscript availability text.
+- `docs/`: data dictionary, release instructions, and manuscript availability text.
 - `metadata/`: file manifest and SHA-256 checksums.
 
 ## Quick verification
@@ -40,11 +40,11 @@ The script checks cohort sizes, DFT completion counts, common-family case counts
 
 ## Software
 
-The numerical DFT records were produced with Quantum ESPRESSO 7.5. The analysis scripts use Python 3 and, for plotting, NumPy and Matplotlib. See `requirements.txt` and the manuscript Methods for the complete scientific protocol.
+The numerical DFT records were produced with Quantum ESPRESSO 7.5. The verification command above uses only the Python 3 standard library (Python 3.10 or later). Plotting scripts use NumPy and Matplotlib; install them with `python -m pip install -r requirements.txt`. See the manuscript Methods and archived inputs for the scientific protocol. Historical scripts in `code/original/` preserve the original project paths and may require path adaptation; this is an evidence archive, not a one-command recreation of the full generation and DFT campaign. Verification does not start DFT jobs or require a GPU.
 
 ## Third-party resources
 
-MatterGen, MatterSim, Quantum ESPRESSO, pseudopotentials, and other third-party software retain their original licenses and citations. Model weights are not redistributed here. Pseudopotential filenames, sources, revisions, and SHA-256 values are recorded so that the exact resources can be obtained from their official distributions.
+MatterGen, MatterSim, Quantum ESPRESSO and other external software retain their original licenses and citations. Their source packages, executables and model weights are not redistributed here. The three bundled PseudoDojo pseudopotentials retain PseudoDojo's CC BY 4.0 license, including copies inside calculation archives. Sources, revision, hashes, attribution and changes are documented in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## Known limits
 
@@ -52,8 +52,10 @@ The archived model snapshot identifier is recorded, but the exact early MatterGe
 
 ## Citation and permanent archive
 
-Before public release, add the accepted manuscript citation and a permanent repository DOI. The recommended workflow is to create a GitHub release and archive that release with Zenodo. Do not invent a DOI before Zenodo issues one.
+Repository: https://github.com/zhangjh97/pt-pd-rh-traceable-workflow
+
+Cite the manuscript title above, this repository and the exact Git commit used. A manuscript DOI and an archival repository DOI have not been assigned in this release. They can be added when available; no acceptance or publication is implied.
 
 ## Licensing
 
-See `LICENSE_SELECTION_REQUIRED.md`. No license is granted until the authors or rights holder approve and add the final license files.
+Author-written software is licensed under the [MIT License](LICENSE). Author-generated data are licensed under [CC BY 4.0](LICENSE-DATA.md). See [LICENSE_SCOPE.md](LICENSE_SCOPE.md) for the per-material scope and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for third-party attribution. These rules cover files stored inside the calculation archives as well as loose files.
